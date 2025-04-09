@@ -24,3 +24,10 @@ console.log(studentJSON);
 
 const studentObj = JSON.parse(studentJSON);
 console.log(studentObj);
+
+
+
+const { name, courses } = student;
+
+console.log(student.name); 
+console.log(courses); 
