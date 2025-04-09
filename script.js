@@ -53,3 +53,12 @@ const newCourses = ["Data Analyst", "Problem Solving"];
 const allCourses = [...student.courses, ...newCourses];
 
 console.log(allCourses);
+
+
+
+student.addCourse = function(course) {
+    this.courses.push(course);
+  };
+
+student.addCourse("Python");
+console.log(student.courses); 
