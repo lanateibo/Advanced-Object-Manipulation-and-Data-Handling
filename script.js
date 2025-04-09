@@ -62,3 +62,11 @@ student.addCourse = function(course) {
 
 student.addCourse("Python");
 console.log(student.courses); 
+
+
+
+student.totalCourses = function() {
+    return this.courses.length;
+  };
+
+  console.log(student.totalCourses()); 
