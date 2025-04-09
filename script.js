@@ -70,3 +70,14 @@ student.totalCourses = function() {
   };
 
   console.log(student.totalCourses()); 
+
+
+
+  
+
+// Bonus Task
+const total = scores.reduce((accumulator, current) => accumulator + current, 0);
+
+const average = total / scores.length;
+
+console.log(`Average Score: ${average}`); 
