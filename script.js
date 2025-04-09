@@ -45,3 +45,11 @@ console.log(score2);
 const studentClone = { ...student, graduationYear: 2026 };
 
 console.log(studentClone); 
+
+
+
+
+const newCourses = ["Data Analyst", "Problem Solving"];
+const allCourses = [...student.courses, ...newCourses];
+
+console.log(allCourses);
