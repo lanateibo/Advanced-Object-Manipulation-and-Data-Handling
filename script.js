@@ -39,3 +39,9 @@ const [score1, score2] = scores;
 
 console.log(score1); 
 console.log(score2); 
+
+
+
+const studentClone = { ...student, graduationYear: 2026 };
+
+console.log(studentClone); 
